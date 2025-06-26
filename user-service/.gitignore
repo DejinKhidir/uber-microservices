@@ -1,0 +1,87 @@
+echo "# Maven
+target/
+*.log
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Environment files
+.env" > .gitignore
+cat.gitignore
+echo "# Maven
+target/
+*.log
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Environment files
+.env" > .gitignore
+cat.gitignore
+echo "# Maven
+target/
+*.log
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Environment files
+.env">.gitignore
+cat.gitignore
+# Maven
+target/
+*.log
+
+# IDEs
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
+# Environment files
+.env
+rm -rf .git
+git int
+echo "# uber-microservices" >> README.md
+git init
+git commit -m "This is a new project"
+git branch -M main
+git remote add origin git@github.com:DejinKhidir/uber-microservices.git
+git push -u origin main
+git add .
+git commit -m "New Project"
+git push -u origin main
+pwd
