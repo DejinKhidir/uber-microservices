@@ -28,4 +28,16 @@ public class RideRequestController {
     public List<RideRequest> getAllRideRequests() {
         return service.getAllRequests();
     }
+
+    @PutMapping("/{id}")
+    public RideRequest updateRideRequest(@PathVariable Long id, @RequestBody RideRequest updatedRide) {
+        return service.updateRideRequest(id, updatedRide);
+    }
+
+    @DeleteMapping("/{id}")
+    public String deleteRideRequest(@PathVariable Long id) {
+        service.deleteRideRequest(id);
+        return "RideRequest with ID " + id + " deleted successfully.";
+    }
+
 }

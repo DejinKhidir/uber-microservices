@@ -8,4 +8,6 @@ public interface RideRequestService {
     RideRequest createRequest(RideRequest request);
     RideRequest getRequestById(Long id);
     List<RideRequest> getAllRequests();
+    RideRequest updateRideRequest(Long id, RideRequest updatedRideRequest);
+    void deleteRideRequest(Long id);
 }

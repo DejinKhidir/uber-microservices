@@ -28,4 +28,14 @@ public class RideRequestServiceImpl implements RideRequestService {
     public List<RideRequest> getAllRequests() {
         return repository.findAll();
     }
+
+    @Override
+    public RideRequest updateRideRequest(Long id, RideRequest updatedRideRequest) {
+        return null;
+    }
+
+    @Override
+    public void deleteRideRequest(Long id) {
+
+    }
 }
